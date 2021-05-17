@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     public int calcScore()
     {
         int a = (int)Time.time;
-        int c = 20000 - a;
+        int c = 3000 - a;
         if (c < 0)
         {
             c = 0;
