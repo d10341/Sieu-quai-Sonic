@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 440510}
   - component: {fileID: 2076372}
-  - component: {fileID: 9291938}
   - component: {fileID: 12497170}
   - component: {fileID: 8149824}
   - component: {fileID: 8252296}
@@ -48,9 +47,10 @@ Camera:
   m_ClearFlags: 3
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -78,14 +78,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!92 &9291938
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100724}
-  m_Enabled: 1
 --- !u!124 &12497170
 Behaviour:
   m_ObjectHideFlags: 0
@@ -269,6 +261,8 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -280,6 +274,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -334,10 +329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5647119db61ec4c338fe586ba0136dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rings: 0
-  speedFactor: 30
+  speedFactor: 20
   speed: 0
-  maxSpeed: 20
+  maxSpeed: 10
   jumpHeight: 14
   rollingBoost: 1
   isGrounded: 1
@@ -353,6 +347,7 @@ MonoBehaviour:
   currentShield: {fileID: 112398, guid: bc8b3d5ec05d1e140aeb8a6e6685c62b, type: 3}
   standardMat: {fileID: 6200000, guid: 78a1089df65bed84eb0c4cb0d74b7665, type: 2}
   rollMat: {fileID: 6200000, guid: 3e2a896e84e1f674abf5cce59fc86c45, type: 2}
+  myR: {fileID: 0}
   checkpoint: {fileID: 180644}
   aRoll: {fileID: 8227324}
   aJump: {fileID: 8251946}

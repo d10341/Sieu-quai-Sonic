@@ -50,11 +50,6 @@ public class SignEnd : MonoBehaviour
             else if (level == 3)
             {
                 PlayerPrefs.SetInt("score3", GameManager.gm.calcScore());
-                PlayerPrefs.SetInt("level4", 1);
-            }
-            else if (level == 4)
-            {
-                PlayerPrefs.SetInt("score4", GameManager.gm.calcScore());
             }
             PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
             PlayerPrefs.Save();

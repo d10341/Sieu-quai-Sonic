@@ -13,6 +13,11 @@ TagManager:
   - Main Hitbox
   - Attack Hitbox
   - Ring
+  - End
+  - ground
+  - moving
+  - Spike
+  - Arrow
   layers:
   - Default
   - TransparentFX

@@ -23,20 +23,15 @@ public class SaveManager : MonoBehaviour
             PlayerPrefs.SetInt("score1", 0);
         }
         
-        if (PlayerPrefs.GetInt("score", 0) == 0)
+        if (PlayerPrefs.GetInt("score2", 0) == 0)
         {
-            PlayerPrefs.SetInt("score", 0);
+            PlayerPrefs.SetInt("score2", 0);
         }
         
         if (PlayerPrefs.GetInt("score3", 0) == 0)
         {
             PlayerPrefs.SetInt("score3", 0);
-        }
-        
-        if (PlayerPrefs.GetInt("score4", 0) == 0)
-        {
-            PlayerPrefs.SetInt("score4", 0);
-        }
+        }    
 
         if (PlayerPrefs.GetInt("level1", 0) == 0)
         {
@@ -52,10 +47,6 @@ public class SaveManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("level3", 0);
         }
-        if (PlayerPrefs.GetInt("level4", 0) == 0)
-        {
-            PlayerPrefs.SetInt("level4", 0);
-        }
         
         if (PlayerPrefs.GetInt("level1") == 1)
         {    
@@ -68,10 +59,6 @@ public class SaveManager : MonoBehaviour
         if (PlayerPrefs.GetInt("level3") == 1)
         {    
             GameObject.Find("TextStatusLevel3").gameObject.GetComponent<Text>().text = "Open";
-        }
-        if (PlayerPrefs.GetInt("level4") == 1)
-        {
-            GameObject.Find("TextStatusLevel4").gameObject.GetComponent<Text>().text = "Open";
         }
         Save();
     }

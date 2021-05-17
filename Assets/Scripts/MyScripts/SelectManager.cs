@@ -12,8 +12,6 @@ public class SelectManager : MonoBehaviour
     
     public GameObject gm3;
 
-    public GameObject gm4;
-
     public GameObject text;
 
     private int _current;
@@ -39,44 +37,28 @@ public class SelectManager : MonoBehaviour
         {
             text.gameObject.GetComponent<Text>().text = "Best score : " + PlayerPrefs.GetInt("score3").ToString();
         }
-        else if (_current == 4)
-        {
-            text.gameObject.GetComponent<Text>().text = "Best score : " + PlayerPrefs.GetInt("score4").ToString();
-        }
         
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.Alpha2))
         {
             gm1.SetActive(false);
             gm2.SetActive(true);
             gm3.SetActive(false);
-            gm4.SetActive(false);
             _current = 2;
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.Alpha1))
         {
             gm1.SetActive(true);
             gm2.SetActive(false);
             gm3.SetActive(false);
-            gm4.SetActive(false);
             _current = 1;
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.Alpha3))
         {
             _current = 3;
             gm1.SetActive(false);
             gm2.SetActive(false);
             gm3.SetActive(true);
-            gm4.SetActive(false);
-        }
-        
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            _current = 4;
-            gm1.SetActive(false);
-            gm2.SetActive(false);
-            gm3.SetActive(false);
-            gm4.SetActive(true);
         }
 
         if (Input.GetKeyUp(KeyCode.Return))
@@ -93,10 +75,6 @@ public class SelectManager : MonoBehaviour
             else if (_current == 3 && PlayerPrefs.GetInt("level3") == 1)
             {
                 SceneManager.LoadScene("Level3", LoadSceneMode.Single);
-            }
-            else if (_current == 4 && PlayerPrefs.GetInt("level4") == 1)
-            {
-                SceneManager.LoadScene("Level4", LoadSceneMode.Single);
             }
         }
     }

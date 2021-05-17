@@ -137,7 +137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6856269008093153961}
   - component: {fileID: 723803110}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HUD Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6856269009079154769}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}

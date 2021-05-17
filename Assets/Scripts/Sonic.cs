@@ -215,6 +215,11 @@ public class Sonic : MonoBehaviour
 		{
 			getHit();
 		}
+
+		if (collision.gameObject.tag == "Arrow")
+		{
+			getHit();
+		}
 	}
 
 	void OnTriggerStay2D(Collider2D collision) {
