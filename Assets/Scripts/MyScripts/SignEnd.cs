@@ -50,6 +50,7 @@ public class SignEnd : MonoBehaviour
             else if (level == 3)
             {
                 PlayerPrefs.SetInt("score3", GameManager.gm.calcScore());
+                SceneManager.LoadScene("End", LoadSceneMode.Single);
             }
             PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
             PlayerPrefs.Save();
