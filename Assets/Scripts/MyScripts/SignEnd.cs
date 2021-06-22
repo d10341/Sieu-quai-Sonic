@@ -26,7 +26,6 @@ public class SignEnd : MonoBehaviour
     {
         if (!end && music == true && Time.time - oldTime >= 6)
         {
-            Debug.Log("score");
             music = false;
             end = true;
             animator.SetBool("End", false);
@@ -41,20 +40,25 @@ public class SignEnd : MonoBehaviour
             {
                 PlayerPrefs.SetInt("score1", GameManager.gm.calcScore());
                 PlayerPrefs.SetInt("level2", 1);
+                PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
+                PlayerPrefs.Save();
+                SceneManager.LoadScene("DataSelect", LoadSceneMode.Single);
             }
             else if (level == 2)
             {
                 PlayerPrefs.SetInt("score2", GameManager.gm.calcScore());
                 PlayerPrefs.SetInt("level3", 1);
+                PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
+                PlayerPrefs.Save();
+                SceneManager.LoadScene("DataSelect", LoadSceneMode.Single);
             }
             else if (level == 3)
             {
-                PlayerPrefs.SetInt("score3", GameManager.gm.calcScore());
+                PlayerPrefs.SetInt("score3", GameManager.gm.calcScore());        
+                PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
+                PlayerPrefs.Save();
                 SceneManager.LoadScene("End", LoadSceneMode.Single);
             }
-            PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
-            PlayerPrefs.Save();
-            SceneManager.LoadScene("DataSelect", LoadSceneMode.Single);
         }
     }
 

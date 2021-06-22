@@ -1,0 +1,736 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 8029 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/LtGame/SonicEternal
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57902
+Successfully changed project path to: D:/LtGame/SonicEternal
+D:/LtGame/SonicEternal
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/LtGame/SonicEternal/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001529 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.614 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 2.302700 ms (FindLiveObjects: 0.577400 ms CreateObjectMapping: 0.165000 ms MarkObjects: 1.438900 ms  DeleteObjects: 0.120300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/ChemicalPlant/98.png
+  artifactKey: Guid(6acb541a4787b89459a7a58135b8ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/98.png using Guid(6acb541a4787b89459a7a58135b8ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bbc76dd04ee74d0ab4d1163fa0be59') in 0.117083 seconds
+  Import took 0.119655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprites/ChemicalPlant/141.png
+  artifactKey: Guid(78ffb1c836c84aa419f065d2b4e6a1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/141.png using Guid(78ffb1c836c84aa419f065d2b4e6a1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ed048cc0ffedc4cbef74a95b158859') in 0.018323 seconds
+  Import took 0.020912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/ChemicalPlant/163.png
+  artifactKey: Guid(4a6a02ca30d0fcf499d9055da8894a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/163.png using Guid(4a6a02ca30d0fcf499d9055da8894a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1bad99433dab3305b663e1a9341f1a') in 0.018660 seconds
+  Import took 0.022107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/FlyingBattery/62.png
+  artifactKey: Guid(ba1b40bc78c24964f85cb9b952e527a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/62.png using Guid(ba1b40bc78c24964f85cb9b952e527a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5505321d04cfdadd1576974bbcdadbf9') in 0.018519 seconds
+  Import took 0.021262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprites/FlyingBattery/141.png
+  artifactKey: Guid(05d933b064f3d6743a25684c3fbcbf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/141.png using Guid(05d933b064f3d6743a25684c3fbcbf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e252a9546c354b58989317b7abe0fb42') in 0.020572 seconds
+  Import took 0.023670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sprites/FlyingBattery/176.png
+  artifactKey: Guid(c8ad8d8ee8001d84e898d7e25a4365fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/176.png using Guid(c8ad8d8ee8001d84e898d7e25a4365fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5d2c9008aa92664072cdea30ad1c52') in 0.018332 seconds
+  Import took 0.021410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/ChemicalPlant/135.png
+  artifactKey: Guid(e4b7bdca74387c348a4c465bc790d8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/135.png using Guid(e4b7bdca74387c348a4c465bc790d8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d97d7c69656ebf32152b203cee5244') in 0.017994 seconds
+  Import took 0.021148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprites/ChemicalPlant/143.png
+  artifactKey: Guid(ea9e0d084f2c0d84092e8998c438f5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/143.png using Guid(ea9e0d084f2c0d84092e8998c438f5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb9982e6469150ca993abe963e3b8c1') in 0.019031 seconds
+  Import took 0.022009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprites/FlyingBattery/175.png
+  artifactKey: Guid(2f9c7e89347193e42ab6ea9bee91b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/175.png using Guid(2f9c7e89347193e42ab6ea9bee91b627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729d15aa5ed70081677fbf382e8d2a82') in 0.017612 seconds
+  Import took 0.020143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprites/ChemicalPlant/146.png
+  artifactKey: Guid(7fbdd1ce3694b7b4091f2c0d9bbc0935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/146.png using Guid(7fbdd1ce3694b7b4091f2c0d9bbc0935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69530ec1436f7189bfd3f8ce6d111303') in 0.018124 seconds
+  Import took 0.021151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprites/FlyingBattery/214.png
+  artifactKey: Guid(9c733f87dea558f41ae555134513e616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/214.png using Guid(9c733f87dea558f41ae555134513e616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f168e1334f93627c99ff3f341cee50') in 0.020937 seconds
+  Import took 0.024008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprites/FlyingBattery/171.png
+  artifactKey: Guid(7784d4839cf4eb44b9076f0294d4e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/171.png using Guid(7784d4839cf4eb44b9076f0294d4e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a93d0a209b678084f2b2382e897274') in 0.017562 seconds
+  Import took 0.020681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Sprites/FlyingBattery/215.png
+  artifactKey: Guid(7094b345a58ba3b4ab0a94cc2e61c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/215.png using Guid(7094b345a58ba3b4ab0a94cc2e61c447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7164e7b760501e31ce322633a52b8e8') in 0.021150 seconds
+  Import took 0.024214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/FlyingBattery/207.png
+  artifactKey: Guid(5e583ee1729a118449eceb9b330cb9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/207.png using Guid(5e583ee1729a118449eceb9b330cb9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd749f394abe46cc20cc5dd7f9e3b1c') in 0.018640 seconds
+  Import took 0.021216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Sprites/ChemicalPlant/120.png
+  artifactKey: Guid(752fd2c960f2ca64da22d5203af2833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/120.png using Guid(752fd2c960f2ca64da22d5203af2833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14da2f0b1dda2fb789d7475f7f140763') in 0.018504 seconds
+  Import took 0.020844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/ChemicalPlant/145.png
+  artifactKey: Guid(0db98d080d5afda40b5eba1d5df9a6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/145.png using Guid(0db98d080d5afda40b5eba1d5df9a6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe67b96accccfe3d27cb2f58b08ecd8') in 0.020293 seconds
+  Import took 0.022854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/FlyingBattery/205.png
+  artifactKey: Guid(0f8c23945b736f84c884d74b1b5d2aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/205.png using Guid(0f8c23945b736f84c884d74b1b5d2aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ff2f7ca870215b4531fbffdf972fca') in 0.018588 seconds
+  Import took 0.021128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/FlyingBattery/145.png
+  artifactKey: Guid(00e526b144b947c4ca5a6bcb9862cb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/145.png using Guid(00e526b144b947c4ca5a6bcb9862cb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491ee91c95e3db9429e95b144a457fc5') in 0.016749 seconds
+  Import took 0.019128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/FlyingBattery/119.png
+  artifactKey: Guid(1e6af5b7e1c9e714aa25022f105d8656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/119.png using Guid(1e6af5b7e1c9e714aa25022f105d8656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26484d7122c05b1b0c6ee9e36038c90e') in 0.019020 seconds
+  Import took 0.021575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/FlyingBattery/165.png
+  artifactKey: Guid(8c3105f7426a4bf4dabf01127d9f6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/165.png using Guid(8c3105f7426a4bf4dabf01127d9f6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c345e029fbf402983e1c38cc917ad5') in 0.018151 seconds
+  Import took 0.020525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/FlyingBattery/121.png
+  artifactKey: Guid(5267ff19ba2f61f4290e74dcd734e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/121.png using Guid(5267ff19ba2f61f4290e74dcd734e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5e11803f4d7507016a96ab1f9eac3f') in 0.018067 seconds
+  Import took 0.020372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/ChemicalPlant/119.png
+  artifactKey: Guid(a11ee3e81b22d1e43883082287a6ca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/119.png using Guid(a11ee3e81b22d1e43883082287a6ca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e08f3aafc952ef523e3e894ae20f2b') in 0.019627 seconds
+  Import took 0.022049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/FlyingBattery/196.png
+  artifactKey: Guid(3e32189f94dc9634d9e8e4219cb577ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/196.png using Guid(3e32189f94dc9634d9e8e4219cb577ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2f73ec2f39d0202db9dc01463a1a40') in 0.018073 seconds
+  Import took 0.020451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/ChemicalPlant/68.png
+  artifactKey: Guid(16626f7b9fcac8241bf2303c2275430e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/68.png using Guid(16626f7b9fcac8241bf2303c2275430e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6453920e4b3f28b03fd1feeace1ab73d') in 0.018836 seconds
+  Import took 0.021595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/ChemicalPlant/150.png
+  artifactKey: Guid(964c90a32598ee847bd89c60da60035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/150.png using Guid(964c90a32598ee847bd89c60da60035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8683ca524e9ffd1c5e105fe33ed21e') in 0.018446 seconds
+  Import took 0.021002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sounds/Sonic 3K/end.wav
+  artifactKey: Guid(0c86437c7a98fc74db600937633683f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Sonic 3K/end.wav using Guid(0c86437c7a98fc74db600937633683f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b503424dd29d865bef1fcf319ea5bfd') in 0.077175 seconds
+  Import took 0.079612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprites/FlyingBattery/97.png
+  artifactKey: Guid(1d1ba7b1cf215ae468a5a7a639fd287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/97.png using Guid(1d1ba7b1cf215ae468a5a7a639fd287e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912e1b1b11a23f65d1a748146cc329df') in 0.017063 seconds
+  Import took 0.019522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/ChemicalPlant/209.png
+  artifactKey: Guid(9e4d3292083366441ae27f3dd154d81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/209.png using Guid(9e4d3292083366441ae27f3dd154d81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0313991b611fb09eeac8f196908b2386') in 0.018172 seconds
+  Import took 0.020661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sprites/FlyingBattery/208.png
+  artifactKey: Guid(f78a6472b5fffe54fb8d3895948d2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/208.png using Guid(f78a6472b5fffe54fb8d3895948d2278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226095800c890a7e2f5b223310ad0496') in 0.016976 seconds
+  Import took 0.019458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprites/ChemicalPlant/196.png
+  artifactKey: Guid(ce9ccd089b581e3418dd8904b97b1b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/196.png using Guid(ce9ccd089b581e3418dd8904b97b1b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aaf30ff8133998ad353a5ff5edf25d') in 0.017820 seconds
+  Import took 0.020310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprites/ChemicalPlant/172.png
+  artifactKey: Guid(d2184843e464a7f4eb747ee45d5a4c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/172.png using Guid(d2184843e464a7f4eb747ee45d5a4c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5518037e2fd502e5c4522c1a1ae306') in 0.018280 seconds
+  Import took 0.020714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites/ChemicalPlant/171.png
+  artifactKey: Guid(932523cce421f25479592b9912c55404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/171.png using Guid(932523cce421f25479592b9912c55404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8316bd32825e88ab34a5748feac3eed') in 0.019725 seconds
+  Import took 0.022156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/FlyingBattery/149.png
+  artifactKey: Guid(18e0ffb58acc85f4bb919b700c11fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/149.png using Guid(18e0ffb58acc85f4bb919b700c11fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fd0a275fbf7de899e69f71165eeb6c') in 0.017117 seconds
+  Import took 0.019533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Sprites/ChemicalPlant/144.png
+  artifactKey: Guid(43a03894764f488448d942fd8ac544f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/144.png using Guid(43a03894764f488448d942fd8ac544f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed24f2ccec4303f71201ed24afe76248') in 0.017667 seconds
+  Import took 0.020317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprites/FlyingBattery/68.png
+  artifactKey: Guid(2f1fa452ddff581469233aa4e5195662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/68.png using Guid(2f1fa452ddff581469233aa4e5195662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd258cb2b9855b189c0a32df6b3a414b') in 0.016742 seconds
+  Import took 0.019148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprites/ChemicalPlant/164.png
+  artifactKey: Guid(40c8f3b28afc6a0409519a83cc0967ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/164.png using Guid(40c8f3b28afc6a0409519a83cc0967ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef99a88e2dbf89a4c392966cbc46d129') in 0.017517 seconds
+  Import took 0.020783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/ChemicalPlant/97.png
+  artifactKey: Guid(1f5b8472a42c1aa499dabb1b04d6b62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/97.png using Guid(1f5b8472a42c1aa499dabb1b04d6b62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ec4423f59d2663877ecc2da53c2c80') in 0.017775 seconds
+  Import took 0.020444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/FlyingBattery/120.png
+  artifactKey: Guid(a883f2b5b18d38342854a8824a8923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/120.png using Guid(a883f2b5b18d38342854a8824a8923d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146a752433dece2d676fa315fd29e069') in 0.018680 seconds
+  Import took 0.021330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprites/FlyingBattery/163.png
+  artifactKey: Guid(79cff6cd272b3184b94385d9473ebf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/163.png using Guid(79cff6cd272b3184b94385d9473ebf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0bdec645bd478505da76b1a9b7db1a') in 0.018091 seconds
+  Import took 0.020626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/FlyingBattery/98.png
+  artifactKey: Guid(596e6e7b5304ed646938d30b96de47c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/98.png using Guid(596e6e7b5304ed646938d30b96de47c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62175005750d0369a8d9fc88a199ebf') in 0.017872 seconds
+  Import took 0.020533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/ChemicalPlant/174.png
+  artifactKey: Guid(2d49be669653a5b46a861a09a5f832e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/174.png using Guid(2d49be669653a5b46a861a09a5f832e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964c32d409173bb8bf769305c9cdf55d') in 0.018647 seconds
+  Import took 0.021722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/FlyingBattery/204.png
+  artifactKey: Guid(1ed80d732fdd71d4aaf603eef01b34b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/204.png using Guid(1ed80d732fdd71d4aaf603eef01b34b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befd6462a56f97c07c92095251494747') in 0.020921 seconds
+  Import took 0.023708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/FlyingBattery/146.png
+  artifactKey: Guid(bd02f513f4511544fbd93c0a410682e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/146.png using Guid(bd02f513f4511544fbd93c0a410682e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fd15d253e1f1588ab2c9fcd51e083a') in 0.018008 seconds
+  Import took 0.020466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/FlyingBattery/157.png
+  artifactKey: Guid(b022306c09f632545934aad4c18489de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/157.png using Guid(b022306c09f632545934aad4c18489de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee93d6d34d70e28cf48f8f571e11c0a8') in 0.018149 seconds
+  Import took 0.020583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/ChemicalPlant/214.png
+  artifactKey: Guid(1c7dcb41162c7bf448efe8e79c984d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/214.png using Guid(1c7dcb41162c7bf448efe8e79c984d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16f4bab5e2baec960b88a74d5a3dfa3') in 0.018853 seconds
+  Import took 0.021244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/FlyingBattery/170.png
+  artifactKey: Guid(506f1a216fd55bc4d9d77c63e8ce0490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/170.png using Guid(506f1a216fd55bc4d9d77c63e8ce0490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb81054db7c745c3e3bd9b9f817dc12') in 0.018325 seconds
+  Import took 0.020851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sprites/ChemicalPlant/142.png
+  artifactKey: Guid(f6770c13fcbc89845be682b67ddceb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/142.png using Guid(f6770c13fcbc89845be682b67ddceb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd999a5a50a4fee86c92ccce2b6660204') in 0.018321 seconds
+  Import took 0.020943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/ChemicalPlant/67.png
+  artifactKey: Guid(a8504bc6ded2251468aba81159c783a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/67.png using Guid(a8504bc6ded2251468aba81159c783a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4f391709c71544f7a4d418bf615633') in 0.017726 seconds
+  Import took 0.020448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/FlyingBattery/135.png
+  artifactKey: Guid(eec536e108feb2045868532b9f9ea23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/135.png using Guid(eec536e108feb2045868532b9f9ea23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cc39803a9af923e26e91f438dfd3fc') in 0.017586 seconds
+  Import took 0.020051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/FlyingBattery/69.png
+  artifactKey: Guid(70d9a22ada77eb847b7f0bd055b28a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/69.png using Guid(70d9a22ada77eb847b7f0bd055b28a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabceae52b442df973245b6e6544afb5') in 0.018283 seconds
+  Import took 0.020644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/FlyingBattery/174.png
+  artifactKey: Guid(39d012cd6cff91343b6011b56d355c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/174.png using Guid(39d012cd6cff91343b6011b56d355c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c874e615930ded82753629b64476fa8') in 0.017959 seconds
+  Import took 0.020373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/FlyingBattery/61.png
+  artifactKey: Guid(caace3799cbaae44e9470ee0ae951669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/61.png using Guid(caace3799cbaae44e9470ee0ae951669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82f2f1edaace73bcce6bde352e95ef4') in 0.016729 seconds
+  Import took 0.019178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprites/FlyingBattery/148.png
+  artifactKey: Guid(35b845497dd975f4cac910d2ae72eb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/148.png using Guid(35b845497dd975f4cac910d2ae72eb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea24387a170a106ef56588b8e2df9a7f') in 0.017957 seconds
+  Import took 0.020364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprites/FlyingBattery/134.png
+  artifactKey: Guid(91156d6b3b0dffe408bdecdf10f34c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/134.png using Guid(91156d6b3b0dffe408bdecdf10f34c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be1cdce13770c1cc7bbee47e50e8f36') in 0.019082 seconds
+  Import took 0.021517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/ChemicalPlant/148.png
+  artifactKey: Guid(9b079ff86c949434ba1c888fe204d85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/148.png using Guid(9b079ff86c949434ba1c888fe204d85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64457e8eff54bb47449fbaccf16d5a1e') in 0.016734 seconds
+  Import took 0.019179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/ChemicalPlant/61.png
+  artifactKey: Guid(55741824ada03f74e9389e86b4b2ed81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/61.png using Guid(55741824ada03f74e9389e86b4b2ed81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9f781585aac1d3b003c2e652527b0e') in 0.018523 seconds
+  Import took 0.020978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/FlyingBattery/164.png
+  artifactKey: Guid(bd9bbea3a6a0bce4297f4bee954cd5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/164.png using Guid(bd9bbea3a6a0bce4297f4bee954cd5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8632a30d1f657af4b344894b45b93447') in 0.016952 seconds
+  Import took 0.019723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/FlyingBattery/67.png
+  artifactKey: Guid(8525741df2d97ae469e2f951e208685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/67.png using Guid(8525741df2d97ae469e2f951e208685b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddfc366d25ec9020217d26d002f1140') in 0.017366 seconds
+  Import took 0.019779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sprites/ChemicalPlant/170.png
+  artifactKey: Guid(ef38c62ff2e411148a25559111ec7a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/170.png using Guid(ef38c62ff2e411148a25559111ec7a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b987421db7977605c6cd68b0eee099') in 0.015881 seconds
+  Import took 0.018281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/ChemicalPlant/204.png
+  artifactKey: Guid(bcf0b53f1e06ccc48b9234e7543df826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/204.png using Guid(bcf0b53f1e06ccc48b9234e7543df826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0245be8f9229e4ee5e3fe2ea4eb9e4') in 0.018377 seconds
+  Import took 0.020915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/ChemicalPlant/203.png
+  artifactKey: Guid(9a512e30d9e382e4f968c88de5ad587c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/203.png using Guid(9a512e30d9e382e4f968c88de5ad587c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca96409688b77d21b372776b88ecadcf') in 0.028577 seconds
+  Import took 0.031487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/FlyingBattery/133.png
+  artifactKey: Guid(5f7367ebef5c82a4b82aeea20893f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/133.png using Guid(5f7367ebef5c82a4b82aeea20893f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd047fb7575e30bbc94c717803106230a') in 0.017140 seconds
+  Import took 0.019575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/ChemicalPlant/134.png
+  artifactKey: Guid(e2a6cde403a8bf34bb23ea7de262be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/134.png using Guid(e2a6cde403a8bf34bb23ea7de262be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b831cecf6d78b2cbfecee510fda883') in 0.016836 seconds
+  Import took 0.019759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/FlyingBattery/99.png
+  artifactKey: Guid(4e8a8424a42ffef46b7faa1ef0a487f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/99.png using Guid(4e8a8424a42ffef46b7faa1ef0a487f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffa491f67a797982aa5ee17adb562c3') in 0.018442 seconds
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprites/ChemicalPlant/208.png
+  artifactKey: Guid(654f740c9fc0335418d31fe780a322f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/208.png using Guid(654f740c9fc0335418d31fe780a322f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e106bc0c01eab7b907300946cb215ded') in 0.017254 seconds
+  Import took 0.019884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/FlyingBattery/203.png
+  artifactKey: Guid(04a404ea11a0d8241bd6f875bf700d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/203.png using Guid(04a404ea11a0d8241bd6f875bf700d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e31b978d1c490f5f86f917453f5bddc') in 0.019930 seconds
+  Import took 0.022410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sounds/Sonic 3K/jump.wav
+  artifactKey: Guid(fe069bec9edcc2f4eaa52bc326c9ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Sonic 3K/jump.wav using Guid(fe069bec9edcc2f4eaa52bc326c9ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c178de9da3df987726b21f6bc73a8d1') in 0.015955 seconds
+  Import took 0.018423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/FlyingBattery/142.png
+  artifactKey: Guid(8fcca5794058ab041a291fad071ecbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/142.png using Guid(8fcca5794058ab041a291fad071ecbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1976afb18bca3229a05a086ec96f65e') in 0.018831 seconds
+  Import took 0.021934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites/ChemicalPlant/62.png
+  artifactKey: Guid(032a41be8a86f684bb4592c1b74422bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/62.png using Guid(032a41be8a86f684bb4592c1b74422bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6198f0b5edd4d24e5149fbc97ddf649') in 0.018929 seconds
+  Import took 0.021518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprites/ChemicalPlant/152.png
+  artifactKey: Guid(66a911dc435f64a4abb52b1a25c0dbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/152.png using Guid(66a911dc435f64a4abb52b1a25c0dbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f500106728fb3e7f6ab8558980b3fe') in 0.017593 seconds
+  Import took 0.020740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprites/ChemicalPlant/149.png
+  artifactKey: Guid(f6375fcb02c61ec4caae0a626b00c2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/149.png using Guid(f6375fcb02c61ec4caae0a626b00c2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feab14375175601ee522ab7cbfd6b0e4') in 0.017712 seconds
+  Import took 0.021394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/ChemicalPlant/175.png
+  artifactKey: Guid(7bfc49f43f46ec746a0379837d45d5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/175.png using Guid(7bfc49f43f46ec746a0379837d45d5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04e0fdc5af0c172e78232e6494785ea') in 0.018385 seconds
+  Import took 0.020931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Sprites/FlyingBattery/197.png
+  artifactKey: Guid(0ea4b5db40735a044a1e591dddae88d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FlyingBattery/197.png using Guid(0ea4b5db40735a044a1e591dddae88d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6e1da9d15e049811d602d9befa52f8') in 0.020380 seconds
+  Import took 0.023226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprites/ChemicalPlant/207.png
+  artifactKey: Guid(b557fc2a0e8d3b749a85e18430216a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChemicalPlant/207.png using Guid(b557fc2a0e8d3b749a85e18430216a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76c9534712f64c91db52cac82fe217b') in 0.018024 seconds
+  Import took 0.020533 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 1.984900 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.086600 ms MarkObjects: 1.552400 ms  DeleteObjects: 0.111400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 2.904800 ms (FindLiveObjects: 0.369100 ms CreateObjectMapping: 0.146000 ms MarkObjects: 2.217900 ms  DeleteObjects: 0.170600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 2.000500 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.073900 ms MarkObjects: 1.555200 ms  DeleteObjects: 0.134700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
