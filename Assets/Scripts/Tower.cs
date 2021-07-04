@@ -4,29 +4,31 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    public GameObject _arrow;
+    private float distance;//khoangr cachs voi nguoi choi
+    public float wakerange;//khoang cach tinh
+    public float shootinterval;//chu kỳ tấn công
+    public float bulletspeed = 5;//tốc độ
+    public float bullettimer;
 
-    [SerializeField]public float speedFire;
+    public bool awake = false;
 
-    private float oldTime;
-    
+    public GameObject bullet;
+    public Transform target;
+    public Transform shootL;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        oldTime = Time.time;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Time.time - oldTime > speedFire)
-        {
-            GameObject go = Instantiate(_arrow, gameObject.transform.position, Quaternion.identity);
-            go.GetComponent<Arrow>().enabled = true;
-            oldTime = Time.time;
-        }
+        RangeCheck();
     }
-    
+
     public void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Player" && (other.gameObject.GetComponent<Sonic>().isJumpball ||
@@ -37,4 +39,38 @@ public class Tower : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    void RangeCheck()
+    {
+        distance = Vector2.Distance(transform.position, target.transform.position);
+
+        if (distance < wakerange)
+            awake = true;
+
+        if (distance > wakerange)
+            awake = false;
+    }
+
+    public void Attack()
+    {
+        bullettimer += Time.deltaTime;
+
+        if (bullettimer >= shootinterval)//time chờ đủ
+        {
+            Vector2 direction = target.transform.position - transform.position;//trụ-người chơi
+            direction.y += 0.9f;
+            direction.Normalize();//bình thường hóa
+
+
+            GameObject bulletclone;
+            bulletclone = Instantiate(bullet, shootL.transform.position, shootL.transform.rotation) as GameObject;
+            bulletclone.GetComponent<Rigidbody2D>().velocity = direction * bulletspeed;
+
+            bullettimer = 0;
+
+        }
+    }
+
+
+
 }

@@ -15,7 +15,7 @@ public class Ring : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         gameObject.tag = "Ring";
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 20; i++) {
             sr.color = Color.clear;
             yield return new WaitForSeconds(0.1f);
             sr.color = Color.white;

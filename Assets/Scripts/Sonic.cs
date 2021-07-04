@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.Analytics;
+using UnityEngine.SceneManagement;
 
 public class Sonic : MonoBehaviour
 {
@@ -232,6 +233,10 @@ public class Sonic : MonoBehaviour
 
 		if (collision.gameObject.tag == "moving")
 			transform.parent = collision.transform;
+		if (collision.gameObject.tag == "Spike" && isInvincible == false)
+		{
+			getHit();
+		}
 	}
 
 	void OnTriggerExit2D(Collider2D collision) {
@@ -322,7 +327,7 @@ public class Sonic : MonoBehaviour
 		rbody.AddForce (new Vector2(0, 15), ForceMode2D.Impulse);
 		GetComponent<CircleCollider2D>().enabled = false;
 		Camera.main.transform.parent = null;
-		Invoke("newLife", 2);
+		SceneManager.LoadScene("DataSelect", LoadSceneMode.Single);
 	}
 
 	void newLife() {

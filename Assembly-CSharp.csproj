@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\SlowEnemy.cs" />
     <Compile Include="Assets\Scripts\MyScripts\LoadStat.cs" />
     <Compile Include="Assets\Scripts\Tower.cs" />
+    <Compile Include="Assets\Scripts\MyScripts\EndTitle.cs" />
     <Compile Include="Assets\Scripts\RampBoost.cs" />
     <Compile Include="Assets\Scripts\MyScripts\SignEnd.cs" />
     <Compile Include="Assets\Scripts\MyScripts\Title.cs" />
@@ -73,7 +74,7 @@
     <Compile Include="Assets\Scripts\HUDManager.cs" />
     <Compile Include="Assets\Scripts\MyScripts\Bumper.cs" />
     <Compile Include="Assets\Scripts\MyScripts\Ring.cs" />
-    <Compile Include="Assets\Scripts\MyScripts\EndTitle.cs" />
+    <Compile Include="Assets\Scripts\MyScripts\AttackCone.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

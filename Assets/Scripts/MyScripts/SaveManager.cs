@@ -65,23 +65,16 @@ public class SaveManager : MonoBehaviour
 
     private void Update()
     {
-     //   Debug.Log("Level " + PlayerPrefs.GetInt("level1"));
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.R))
         {
-            SaveUser(PlayerPrefs.GetInt("deapth") + 1, 0, 0);
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            PlayerPrefs.SetInt("score1", PlayerPrefs.GetInt("score1", 0) + 1);
+            PlayerPrefs.SetInt("score1", 0);
+            PlayerPrefs.SetInt("score2", 0);
+            PlayerPrefs.SetInt("score3", 0);
+            PlayerPrefs.SetInt("deapth", 0);
+            PlayerPrefs.SetInt("level2", 0);
+            PlayerPrefs.SetInt("level3", 0);
             PlayerPrefs.Save();
         }
-    }
-
-    public void SaveUser(int deapth, int score, int rings)
-    {
-        PlayerPrefs.SetInt("deapth", deapth);
-        PlayerPrefs.SetInt("rings", rings);
-        Save();
     }
 
     public void Save()
