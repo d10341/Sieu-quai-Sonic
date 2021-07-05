@@ -3379,6 +3379,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4121712974932251802, guid: d38e49245e17e49d2b6b79bfa345f5eb, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1912412815}
     - target: {fileID: 4121712974932251803, guid: d38e49245e17e49d2b6b79bfa345f5eb, type: 3}
       propertyPath: m_Name
       value: Tower
@@ -3515,7 +3519,7 @@ PrefabInstance:
     - target: {fileID: 4121712974932251802, guid: d38e49245e17e49d2b6b79bfa345f5eb, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1912412815}
     - target: {fileID: 4121712974932251803, guid: d38e49245e17e49d2b6b79bfa345f5eb, type: 3}
       propertyPath: m_Name
       value: Tower
@@ -5375,7 +5379,7 @@ PrefabInstance:
     - target: {fileID: 4121712974932251802, guid: d38e49245e17e49d2b6b79bfa345f5eb, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1912412815}
     - target: {fileID: 4121712974932251802, guid: d38e49245e17e49d2b6b79bfa345f5eb, type: 3}
       propertyPath: shootpointL
       value: 
@@ -6256,6 +6260,10 @@ PrefabInstance:
       propertyPath: checkpoint
       value: 
       objectReference: {fileID: 105395130}
+    - target: {fileID: 21294684, guid: bdfcde6b042baad4b9682720ce9132da, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdfcde6b042baad4b9682720ce9132da, type: 3}
 --- !u!4 &1861892227 stripped
@@ -6515,7 +6523,7 @@ PrefabInstance:
     - target: {fileID: 4121712974932251802, guid: d38e49245e17e49d2b6b79bfa345f5eb, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1912412815}
     - target: {fileID: 4121712974932251803, guid: d38e49245e17e49d2b6b79bfa345f5eb, type: 3}
       propertyPath: m_Name
       value: Tower
