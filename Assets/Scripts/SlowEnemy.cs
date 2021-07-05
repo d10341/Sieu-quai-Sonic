@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SlowEnemy : MonoBehaviour
 {
-    public Vector3 vl;
-    public Vector3 vr;
+    private Vector3 vl;
+    private Vector3 vr;
 
     public bool right;
 
@@ -23,7 +23,7 @@ public class SlowEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (state == 0)
+        if (state == 1)
         {
             if (!right)
             {
@@ -63,7 +63,7 @@ public class SlowEnemy : MonoBehaviour
 
     public IEnumerator dest()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(3);
         if (state == 0)
         {
             state = 1;

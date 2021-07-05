@@ -42,7 +42,7 @@ public class SignEnd : MonoBehaviour
                 PlayerPrefs.SetInt("level2", 1);
                 PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
                 PlayerPrefs.Save();
-                SceneManager.LoadScene("DataSelect", LoadSceneMode.Single);
+                SceneManager.LoadScene("Level2", LoadSceneMode.Single);
             }
             else if (level == 2)
             {
@@ -50,7 +50,7 @@ public class SignEnd : MonoBehaviour
                 PlayerPrefs.SetInt("level3", 1);
                 PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
                 PlayerPrefs.Save();
-                SceneManager.LoadScene("DataSelect", LoadSceneMode.Single);
+                SceneManager.LoadScene("Level3", LoadSceneMode.Single);
             }
             else if (level == 3)
             {

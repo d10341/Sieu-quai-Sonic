@@ -27,7 +27,7 @@ public class SelectManager : MonoBehaviour
     {
         if (_current == 2)
         {
-            text.gameObject.GetComponent<Text>().text = "Best score : " + PlayerPrefs.GetInt("score").ToString();
+            text.gameObject.GetComponent<Text>().text = "Best score : " + PlayerPrefs.GetInt("score2").ToString();
         }
         else if (_current == 1)
         {
@@ -63,7 +63,6 @@ public class SelectManager : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Return))
         {
-            Debug.Log("current " + _current.ToString());
             if (_current == 2 && PlayerPrefs.GetInt("level2") == 1)
             {
                 SceneManager.LoadScene("Level2", LoadSceneMode.Single);

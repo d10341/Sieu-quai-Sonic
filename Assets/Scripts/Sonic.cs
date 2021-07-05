@@ -330,11 +330,11 @@ public class Sonic : MonoBehaviour
 		SceneManager.LoadScene("DataSelect", LoadSceneMode.Single);
 	}
 
-	void newLife() {
-		isHit = false;
-		isDead = false;
-		Application.LoadLevel(Application.loadedLevel);
-	}
+	//void newLife() {
+	//	isHit = false;
+	//	isDead = false;
+	//	Application.LoadLevel(Application.loadedLevel);
+	//}
 
 	IEnumerator waitGame()
 	{

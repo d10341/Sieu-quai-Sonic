@@ -6,7 +6,6 @@ public class Ring : MonoBehaviour
 {
     
     public IEnumerator fadeDontTouch() {
-        //isInvincible = true;
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
         for (int i = 0; i < 10; i++) {
             sr.color = Color.clear;
