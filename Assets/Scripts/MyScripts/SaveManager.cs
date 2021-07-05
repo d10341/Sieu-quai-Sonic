@@ -75,6 +75,18 @@ public class SaveManager : MonoBehaviour
             PlayerPrefs.SetInt("level3", 0);
             PlayerPrefs.Save();
         }
+        if (PlayerPrefs.GetInt("level1") == 0)
+        {
+            GameObject.Find("TextStatusLevel1").gameObject.GetComponent<Text>().text = "Close";
+        }
+        if (PlayerPrefs.GetInt("level2") == 0)
+        {
+            GameObject.Find("TextStatusLevel2").gameObject.GetComponent<Text>().text = "Close";
+        }
+        if (PlayerPrefs.GetInt("level3") == 0)
+        {
+            GameObject.Find("TextStatusLevel3").gameObject.GetComponent<Text>().text = "Close";
+        }
     }
 
     public void Save()

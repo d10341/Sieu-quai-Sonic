@@ -21,7 +21,9 @@ public class SignEnd : MonoBehaviour
 
     public int level;
     //
-    
+
+    public int getLevel() { return level; }
+
     void Update()
     {
         if (!end && music == true && Time.time - oldTime >= 6)
@@ -36,26 +38,36 @@ public class SignEnd : MonoBehaviour
         }
         if (end && Time.time - oldTime > 2)
         {
+            int totalrings = PlayerPrefs.GetInt("rings") + GameManager.gm.rings;
             if (level == 1)
             {
-                PlayerPrefs.SetInt("score1", GameManager.gm.calcScore());
+                if (GameManager.gm.calcScore() > PlayerPrefs.GetInt("score1"))
+                    PlayerPrefs.SetInt("score1", GameManager.gm.calcScore());
+                else
+                    PlayerPrefs.SetInt("score1", PlayerPrefs.GetInt("score1"));
                 PlayerPrefs.SetInt("level2", 1);
-                PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
+                PlayerPrefs.SetInt("rings", totalrings);
                 PlayerPrefs.Save();
                 SceneManager.LoadScene("Level2", LoadSceneMode.Single);
             }
             else if (level == 2)
             {
-                PlayerPrefs.SetInt("score2", GameManager.gm.calcScore());
+                if (GameManager.gm.calcScore() > PlayerPrefs.GetInt("score2"))
+                    PlayerPrefs.SetInt("score2", GameManager.gm.calcScore());
+                else
+                    PlayerPrefs.SetInt("score2", PlayerPrefs.GetInt("score2"));
                 PlayerPrefs.SetInt("level3", 1);
-                PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
+                PlayerPrefs.SetInt("rings", totalrings);
                 PlayerPrefs.Save();
                 SceneManager.LoadScene("Level3", LoadSceneMode.Single);
             }
             else if (level == 3)
             {
-                PlayerPrefs.SetInt("score3", GameManager.gm.calcScore());        
-                PlayerPrefs.SetInt("rings", PlayerPrefs.GetInt("rings"));
+                if (GameManager.gm.calcScore() > PlayerPrefs.GetInt("score3"))
+                    PlayerPrefs.SetInt("score3", GameManager.gm.calcScore());
+                else
+                    PlayerPrefs.SetInt("score3", PlayerPrefs.GetInt("score3"));
+                PlayerPrefs.SetInt("rings", totalrings);
                 PlayerPrefs.Save();
                 SceneManager.LoadScene("End", LoadSceneMode.Single);
             }

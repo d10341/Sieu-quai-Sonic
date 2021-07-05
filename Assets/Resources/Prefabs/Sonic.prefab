@@ -330,9 +330,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedFactor: 20
   speed: 0
-  maxSpeed: 10
+  maxSpeed: 20
   jumpHeight: 14
-  rollingBoost: 1
+  rollingBoost: 100
   isGrounded: 1
   isCharging: 0
   isRolling: 0

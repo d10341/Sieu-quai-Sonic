@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   right: 0
-  state: 0
+  state: 1
 --- !u!61 &3239427767153907784
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -54,9 +54,46 @@ public class SlowEnemy : MonoBehaviour
             if (state == 0)
             {
                 GameManager.gm.score += 500;
-                other.gameObject.GetComponent<Sonic>().destroy();
-                
+                other.gameObject.GetComponent<Sonic>().destroy(); 
                 Destroy(gameObject);
+            }
+            else
+            {
+                other.gameObject.GetComponent<Sonic>().getHit();
+            }
+        }
+        else if (other.gameObject.tag == "Player" && (!other.gameObject.GetComponent<Sonic>().isJumpball ||
+                                                 !other.gameObject.GetComponent<Sonic>().isRolling))
+        {
+            if (state == 1)
+            {
+                other.gameObject.GetComponent<Sonic>().getHit();
+            }    
+        }
+    }
+
+    public void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player" && (other.gameObject.GetComponent<Sonic>().isJumpball ||
+                                                 other.gameObject.GetComponent<Sonic>().isRolling))
+        {
+            if (state == 0)
+            {
+                GameManager.gm.score += 500;
+                other.gameObject.GetComponent<Sonic>().destroy();
+                Destroy(gameObject);
+            }
+            else
+            {
+                other.gameObject.GetComponent<Sonic>().getHit();
+            }
+        }
+        else if (other.gameObject.tag == "Player" && (!other.gameObject.GetComponent<Sonic>().isJumpball ||
+                                                 !other.gameObject.GetComponent<Sonic>().isRolling))
+        {
+            if (state == 1)
+            {
+                other.gameObject.GetComponent<Sonic>().getHit();
             }
         }
     }
@@ -74,7 +111,7 @@ public class SlowEnemy : MonoBehaviour
         {
             gameObject.GetComponent<Animator>().SetBool("Move", true);
             state = 0;
-            gameObject.tag = "NotSpike";
+            gameObject.tag = "Untagged";
         }
         StartCoroutine(dest());
     }

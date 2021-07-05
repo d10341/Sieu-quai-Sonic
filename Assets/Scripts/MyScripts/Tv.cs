@@ -36,6 +36,10 @@ public class Tv : MonoBehaviour
                 GameObject.Find("BackgroundMusic").GetComponent<AudioSource>().pitch = 1.20f;
                 StartCoroutine(bonusTvBootsEnd());
             }
+            else if (_type.Equals("TvLife"))
+            {
+                GameManager.gm.life += 1;
+            }
         }
     }
 
