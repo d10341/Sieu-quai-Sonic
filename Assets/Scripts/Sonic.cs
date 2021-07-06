@@ -42,7 +42,9 @@ public class Sonic : MonoBehaviour
 	public AudioSource aSpike;
 	public AudioSource aDeath;
 
-	void Awake()	{
+    //private int end;
+
+    void Awake()	{
 		animator = GetComponent<Animator>();
 		rbody = GetComponent<Rigidbody2D>();
 		currentMat = GetComponent<CircleCollider2D>().sharedMaterial;
@@ -221,6 +223,15 @@ public class Sonic : MonoBehaviour
 		{
 			getHit();
 		}
+
+		//if (collision.gameObject.tag == "End")
+		//{
+		//	if (end == 0)
+  //          {
+		//		GameManager.gm.score = GameManager.gm.calcScore();
+		//		end = 1;
+		//	}
+		//}
 	}
 
 	void OnTriggerStay2D(Collider2D collision) {

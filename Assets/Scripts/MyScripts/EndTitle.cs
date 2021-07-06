@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class EndTitle : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //[SerializeField] GameObject exitPanel;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -24,6 +24,19 @@ public class EndTitle : MonoBehaviour
 
     public void Quit()
     {
+        //if (exitPanel)
+        //{
+        //    exitPanel.SetActive(true);
+        //}
         Application.Quit();
     }
+
+    //public void onUserClickYesNo(int choice)
+    //{
+    //    if (choice == 1)
+    //    {
+    //        Application.Quit();
+    //    }
+    //    exitPanel.SetActive(false);
+    //}
 }
